@@ -19,5 +19,21 @@ body {
     width: 400px;
     border: 5px solid white;
     border-radius: 50%;
+    background: url(./Vector.png);
+    background-size: 400px 200px;
+    background-repeat: repeat-x;
+    animation: flow 4s linear infinite;
+}
+
+@keyframes flow {
+    0% {
+        background-position: -1200px 200px;
+    }
     
+    100% {
+        background-position: 0 200px;
+    }
+
+
+
 }
